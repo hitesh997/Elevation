@@ -42,10 +42,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onProgressChanged(android.widget.SeekBar seekBar, int progress, boolean fromUser) {
                 setElevation(progress,l1,l2,l3);
-                if(progress==29){
-                    setEle.setProgress(maxSeek);
-                }
-
 
 
             }
